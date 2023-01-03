@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/welcome_nav"
+    app:startDestination="@id/welcome_Fragment">
+
+    <fragment
+        android:id="@+id/welcome_Fragment"
+        android:name="com.said.emergency.Welcome_Fragment"
+        android:label="fragment_welcome_"
+        tools:layout="@layout/fragment_welcome_" >
+        <action
+            android:id="@+id/action_welcome_Fragment_to_login_Fragment"
+            app:destination="@id/login_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/login_Fragment"
+        android:name="com.said.emergency.Login_Fragment"
+        android:label="fragment_login_"
+        tools:layout="@layout/fragment_login_" />
+</navigation>

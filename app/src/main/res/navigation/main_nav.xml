@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/edit_Fragment">
+
+    <fragment
+        android:id="@+id/edit_Fragment"
+        android:name="com.said.emergency.edit_Fragment"
+        android:label="Edit emergency contacts"
+        tools:layout="@layout/fragment_edit_" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/panic_Fragment"
+        android:name="com.said.emergency.panic_Fragment"
+        android:label="Button test"
+        tools:layout="@layout/fragment_panic_" />
+
+</navigation>

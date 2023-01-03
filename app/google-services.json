@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "944132830764",
+    "firebase_url": "https://chatroommessaging-default-rtdb.firebaseio.com",
+    "project_id": "chatroommessaging",
+    "storage_bucket": "chatroommessaging.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944132830764:android:95f2e88bdbcdc4cdbe4389",
+        "android_client_info": {
+          "package_name": "com.example.chatroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944132830764-976ak5tt01tfg3vokg5g9kq9uos2oku9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACYK7HxAUzhDUeUApNVxiKSjF7ulg7UBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944132830764-976ak5tt01tfg3vokg5g9kq9uos2oku9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944132830764:android:0d91b08215d7b2d8be4389",
+        "android_client_info": {
+          "package_name": "com.said.emergency"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944132830764-976ak5tt01tfg3vokg5g9kq9uos2oku9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACYK7HxAUzhDUeUApNVxiKSjF7ulg7UBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944132830764-976ak5tt01tfg3vokg5g9kq9uos2oku9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
